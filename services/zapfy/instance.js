@@ -1,8 +1,8 @@
 const axios = require("axios")
 
 
-const instanceKey = "30c616e9-a091-46a9-9279-34a7a7f396d7"
-const instanceToken = "ed14fa07-6014-42d1-aaed-fddcbfb670b3"
+const instanceKey = ""
+const instanceToken = ""
 const baseUrl = `https://api.zapfy.me/v1/instance/${instanceKey}/token/${instanceToken}`
 module.exports = {
     conectar_instance: async () => {
